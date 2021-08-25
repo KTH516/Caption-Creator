@@ -10,8 +10,14 @@
 h1{
   text-align: center;
   padding-top: 1em;
-  padding-bottom: 2.5em;
+  padding-bottom: 0.5em;
   font-weight: bold;
+}
+
+h2{
+  text-align: center;
+  font-size: medium;
+  padding-bottom: 3em;
 }
 
 .form-check{
@@ -25,29 +31,51 @@ h1{
   background-color: rgb(223, 209, 209);
 }
 
+.form-check-label{
+  color:black;
+}
+
 .form-check :hover{
-    background-color: rgb(170, 129, 129);
+    color: rgb(170, 129, 129);
 }
 
 .form-check :active{
-    background-color: rgb(180, 179, 245);
+    color: rgb(180, 179, 245);
 }
 
 .btn{
-  background-color: rgb(214, 141, 214);
+  background-color: rgb(221, 161, 221);
   border-radius: 25px;
   margin-top: 1em;
   width: 25%;
   outline: none;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  min-width: 130px;
+	position: relative;
+	display: inline-block;
+
+	text-align: center;
+	text-transform: uppercase; 
+
+	padding: 15px;
+
+	font-size: medium;
+	font-weight: 600;
+
+	color: rgb(231, 216, 216);
+
+	transition: 0.1s;
 }
 
 .btn:hover{
-    background-color: rgb(180, 109, 180);
+    background-color: rgb(155, 127, 155);
+    box-shadow: 7px 7px darken(rgb(223, 209, 209), 20%), -7px -7px lighten(rgb(223, 209, 209), 20%);
+    cursor: pointer;
 }
 
 .btn:active{
-    background-color: rgb(180, 109, 180);
+    background-color: rgb(155, 127, 155);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transform: translateY(4px);
 }
@@ -69,3 +97,7 @@ footer{
   bottom:0;
   right: 1em;
 }
+
+
+
+
