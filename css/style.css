@@ -28,23 +28,24 @@ h2{
   padding-left: 2em;
   margin-bottom: 2em;
   width: 8em;
-  background-color: rgb(223, 209, 209);
+  background-color: rgb(212, 184, 184);
 }
 
 .form-check-label{
   color:black;
 }
 
-.form-check :hover{
-    color: rgb(170, 129, 129);
+.form-check:hover{
+    background-color: rgb(170, 129, 129);
 }
 
-.form-check :active{
-    color: rgb(180, 179, 245);
+.form-check:active{
+  background-color: rgb(170, 129, 129);
+  transform: translateY(4px);
 }
 
 .btn{
-  background-color: rgb(221, 161, 221);
+  background-color: rgb(211, 149, 211);
   border-radius: 25px;
   margin-top: 2em;
   width: 25%;
