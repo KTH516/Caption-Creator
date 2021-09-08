@@ -17,7 +17,11 @@ h1{
 h2{
   text-align: center;
   font-size: medium;
-  padding-bottom: 3em;
+  padding-top: 2em;
+}
+
+main {
+  padding-top: 4em;
 }
 
 .form-check{
@@ -33,6 +37,15 @@ h2{
 
 .form-check-label{
   color:black;
+}
+
+.form-check[type=checkbox]{
+  background-color: rgb(180, 179, 245);
+
+}
+
+.form-check[type=checkbox]:checked + label{
+  background-color: rgb(180, 179, 245);
 }
 
 .form-check:hover{
@@ -101,12 +114,39 @@ h2{
   background-color: rgb(180, 179, 245);
 }
 
-footer{
+footer {
   position:absolute;
   bottom:0;
   right: 1em;
 }
 
+.copyright {
+  position: fixed;
+  right: 1em;
+  bottom: .25em;
+}
 
+.p00sh33n {
+  float: right;
+  height: 4.5em;
+  width: 6.25em;
+}
 
+.banana{
+  float: left;
+  height: 4.5em;
+  width: 5.75em;
+}
 
+.kitty {
+  text-align: center;
+  padding-right: 2.5em;
+  height: 15em;
+}
+
+.poptart {
+  position: absolute;
+  bottom: 2.5em;
+  left: 1.5em;
+  height: 10em;
+}
