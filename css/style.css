@@ -24,28 +24,30 @@ main {
   padding-top: 4em;
 }
 
-.form-check{
+.form-check, .btn-group-toggle{
   border-style: solid;
   border-radius: 10px;
   border-color: rgb(136, 136, 136);
-  padding: .5em;
-  padding-left: 2em;
   margin-bottom: 2em;
-  width: 8em;
   background-color: rgb(212, 184, 184);
+}
+
+
+.btn {
+  width: 8em;
+  padding-left: 0;
 }
 
 .form-check-label{
   color:black;
 }
-
-.form-check[type=checkbox]{
-  background-color: rgb(180, 179, 245);
-
+.btn-group-toggle:hover{
+  background-color: rgb(170, 129, 129);
 }
 
-.form-check[type=checkbox]:checked + label{
-  background-color: rgb(180, 179, 245);
+.btn-group-toggle:active{
+background-color: rgb(170, 129, 129);
+transform: translateY(4px);
 }
 
 .form-check:hover{
@@ -57,7 +59,7 @@ main {
   transform: translateY(4px);
 }
 
-.btn{
+.bigButt{
   background-color: rgb(211, 149, 211);
   border-radius: 25px;
   margin-top: 2em;
@@ -82,13 +84,13 @@ main {
 	transition: 0.1s;
 }
 
-.btn:hover{
+.bigButt:hover{
     background-color: rgb(155, 127, 155);
     box-shadow: 7px 7px darken(rgb(223, 209, 209), 20%), -7px -7px lighten(rgb(223, 209, 209), 20%);
     cursor: pointer;
 }
 
-.btn:active{
+.bigButt:active{
     background-color: rgb(155, 127, 155);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transform: translateY(4px);
